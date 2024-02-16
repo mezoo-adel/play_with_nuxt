@@ -3,9 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   alias : {
      assets:"/<rootDir>/assets",
+     pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
   },
   modules:[
     '@nuxtjs/i18n',
+    '@pinia/nuxt',
   ],
   css:[
     '@/assets/main.css'

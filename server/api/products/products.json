@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "description": "The latest iPhone model with advanced features and performance.",
+      "price": 999.99,
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "KitchenAid Stand Mixer",
+      "description": "A powerful and versatile stand mixer for all your baking needs.",
+      "price": 349.99,
+      "category": "Home & Kitchen"
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max 270",
+      "description": "Classic Nike sneakers with modern comfort and style.",
+      "price": 129.99,
+      "category": "Fashion"
+    },
+    {
+      "id": 4,
+      "name": "Yeti Tundra 45 Cooler",
+      "description": "Rugged and durable cooler for outdoor adventures.",
+      "price": 299.99,
+      "category": "Sports & Outdoors"
+    }
+  ]
+  

@@ -27,7 +27,7 @@
                         <NuxtLink :to="localePath('/profile')">PROFILE</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink :to="localePath('/events/test')">TestEvents</NuxtLink>
+                        <NuxtLink :to="localePath('/events/click')">clickEvents</NuxtLink>
                     </li>
                     <li v-for="lang in locales" :key="lang.iso">
                         <NuxtLink :to="switchLocalePath(lang.code)">{{ lang.name }}</NuxtLink>

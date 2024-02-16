@@ -1,10 +1,13 @@
 <template>
+    {{ counter }}
+    <h2>
+        DO NOT CLICK HERE
+    </h2>
     <ChildComponentSecondChild />
-    DO NOT CLICK HERE
 </template>
 
 <script setup>
-const { logBye } = useTesting();
+const { logBye, counter } = useTesting();
 
 logBye()
 </script>
