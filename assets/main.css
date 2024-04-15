@@ -1,12 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-div{
-    font-weight: 800;
-    color: brown;
-}
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
 
 img{
     height: 250px;
+}
+
+.aref-ruqaa-regular {
+    font-family: "Aref Ruqaa";
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .aref-ruqaa-bold {
+    font-family: "Aref Ruqaa";
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.center-flex{
+  @apply flex justify-center content-center space-x-1 space-x-reverse
 }
